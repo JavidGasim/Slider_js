@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.section-design {
+  margin-top: 5%;
+  position: relative;
+  border: 5px solid black;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+}
+
+.big-img {
+  width: 100%;
+  transition-property: margin-left, border-radius;
+  transition-duration: 1.5s;
+}
+
+.big-img:hover {
+  cursor: pointer;
+}
+
+.small-img {
+  width: 25%;
+  height: 25%;
+  margin-left: 0%;
+  border: 0px solid black;
+  border-radius: 0px;
+  transition-property: margin-left, border-radius, border;
+  transition-duration: 1.5s;
+}
+
+.small-img:hover {
+  cursor: pointer;
+}
